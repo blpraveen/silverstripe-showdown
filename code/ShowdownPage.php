@@ -13,7 +13,7 @@ class ShowdownPage extends Page {
     public function getCMSFields() {
         $fields = parent::getCMSFields();
         $fields->removeByName('Root.Content');
-        $fields->addFieldToTab('Root.Content.Main', new ShowdownField('Content', 'Content'));
+        $fields->addFieldToTab('Root.Main', new ShowdownField('Content', 'Content'));
         return $fields;
     }
 }
