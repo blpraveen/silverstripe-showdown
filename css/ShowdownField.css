@@ -3,19 +3,28 @@
 	overflow: hidden;
 }
 
-.right form .showdown div.preview {
+.cms-content #Form_EditForm .showdown div.preview {
 	display: block;
 	background: white;
-	border: 1px solid #888;
+	border: 1px solid #C2C2C2;
 	padding: 0.25em;
 	overflow: auto;
+	height:290px !important;
+	border-radius:4px; 
 }
 
-.right form .showdown div.preview, 
-.right form .showdown textarea {
+.cms-content #Form_EditForm .showdown div.preview, 
+.cms-content #Form_EditForm .showdown textarea {
 	height: 300px;
 	width: 48%;
 	float: left;
 	clear: none;
 	margin: 5px;
+}
+
+#ShowdownPreview_Content h1 { 
+	font-size: 22px;
+	font-weight:bold;
+	line-height: 26px;
+   	margin: 18px 0;
 }
