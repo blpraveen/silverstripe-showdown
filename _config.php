@@ -1,3 +1,3 @@
 <?php
-SiteTree::add_extension('SiteTreeShowExtension');
+//SiteTree::add_extension('SiteTreeShowExtension');
 ?>
