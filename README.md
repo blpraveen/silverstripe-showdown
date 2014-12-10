@@ -13,7 +13,10 @@ However, you may wish to simply override all HtmlTextFields with ShowdownTextFie
 This will also override $Content in templates to display correctly.
 
 To display fields other than Content correctly on the front-end, you will need to adjust the templates manually, as shown below:
+## Requirements
 
+* SilverStripe 3.1
+* 
 ### Example of template display. ###
 **themes/THEME/templates/Layout/Page.ss**
 
