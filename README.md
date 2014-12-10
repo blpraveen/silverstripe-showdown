@@ -16,7 +16,7 @@ To display fields other than Content correctly on the front-end, you will need t
 ## Requirements
 
 * SilverStripe 3.1
-* 
+
 ### Example of template display. ###
 **themes/THEME/templates/Layout/Page.ss**
 
